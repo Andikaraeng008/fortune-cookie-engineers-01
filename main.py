@@ -3,11 +3,12 @@
 Writes the fortune cookie message for a software engineer to the
 grader's output file. The line is one fortune (120 characters at most),
 short and declarative, with its twist in the final words.
-Candidate F1 (dark, 106 characters) — chosen by Ahmad.
+Candidate F4 (75 characters) — chosen by Ahmad: a fortune promising
+you will fix the bug today, but the bug has been waiting for you since Tuesday.
 """
 import os
 
-LINE = "Your code will outlive you. The bug you didn't write already has your name on it. Lucky numbers: 404, 500."
+LINE = "You will fix the bug today. The bug has been waiting for you since Tuesday."
 
 def main():
     out_dir = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
